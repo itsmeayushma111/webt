@@ -1,0 +1,62 @@
+*{
+    padding :0;
+    margin :0;
+   
+}
+.number{
+    background : url(image.png) no-repeat;
+    background-size: cover;
+    height : 120vh;
+}
+.Daisy{
+    width : 140px;
+    height : auto;
+    padding : 1px 10px;
+}
+.center{
+    position: absolute;
+    top : 52%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select:none;  
+}
+.center h1{
+    color : rgba(55, 215, 247, 0.955);
+    font-size : 40px;
+    font-weight : bold;
+    width : 700px;
+    text-align : center;
+    text-decoration: underline;
+}
+.center h2{
+    color : rgb(151, 221, 12);
+    font-size : 40px;
+    font-weight : 200;
+    width : 700px;
+    text-align : center;
+}
+.center button{
+    margin : 55px 55px;
+}
+.buttons button{
+    height : 30px;
+    width : 120px;
+    font-size : 18px;
+    font-weight : bold;
+    color : #b3ffd6;
+    background : red;
+    border : 1px solid #00cc00;
+    outline : none;
+    cursor : pointer;
+    border-radius: 25px;
+
+}
+.buttons{
+    position: absolute;
+    top : 110%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select:none;  
+}
