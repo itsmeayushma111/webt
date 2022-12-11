@@ -22,7 +22,7 @@
     user-select:none;  
 }
 .center h1{
-    color : rgba(55, 215, 247, 0.955);
+    color : rgba(1, 5, 28, 0.955);
     font-size : 40px;
     font-weight : bold;
     width : 700px;
@@ -30,7 +30,7 @@
     text-decoration: underline;
 }
 .center h2{
-    color : rgb(151, 221, 12);
+    color : rgb(6, 16, 148);
     font-size : 40px;
     font-weight : 200;
     width : 700px;
