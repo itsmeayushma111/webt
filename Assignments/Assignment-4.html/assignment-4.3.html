@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asssignment 4.3</title>
+    <style>
+      h1{
+        color: #1f2638;
+        margin-left: 20px;
+      }
+      .text{
+        position: absolute;
+        font-size: 60px;
+        color: #1f2638;
+      }
+      ul{
+        position:absolute;
+        top: 345px;
+        left: 20px;
+        list-style-type: none;
+        color: #373e52;
+        font-family: Arial;
+        font-weight: bold;
+      }
+      li::before{
+        content: "✓";
+        color: #4a88f9;
+        border: 2px solid #4a88f9;
+        padding:1px 3px;
+        border-radius: 50px;
+        position: relative;
+        right: 30px;
+      }
+      p{
+        float: left;
+        margin: 50px;
+        position: relative;
+        left:350px;
+        bottom: 95px;
+        color: #394053;
+        font-family: Arial;
+        font-weight: bold;
+      }
+      button{
+        position: relative;
+        left: 600px;
+        bottom:50px;
+        padding: 10px 15px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        border: 1px solid #ecedf0;
+        font-weight: bold;
+      }
+      .buttons-wrapper {
+        position: relative;
+        top: 380px;
+        margin-left: 20px;
+      }
+      .outer-button {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        height: 40px;
+        width: 30%;
+        background: #ffffff;
+        color: #afb3bf;
+        text-align: left;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .inner-button {
+        position: absolute;
+        top: 4px;
+        left: 310px;
+        line-height: 1px;
+        height: 30px;
+        color: lightcyan;
+        background-color: darkblue;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      img{
+        position: relative;
+        left: 50px;
+        top: 20px;
+        width: 650px;
+        border-radius: 9px;
+      }
+    </style>
+</head>
+<body>
+    <h1>Brand</h1>
+    <p>Home</p>
+    <p>Components</p>
+    <p>Pricing</p>
+    <p>FAQ</p>
+    <button>Contact US</button>
+    <h1 class="text">Easiest way to create <br> your website</h1>
+    <ul>
+        <li>Clean and Simple Layout</li><br>
+        <li>Just Copy Paste Codeing</li><br>
+        <li>Easy to use</li>
+    </ul>
+    <div>
+        <div class="buttons-wrapper">
+          <button class="outer-button">
+                Enter your email address
+              </button>
+          <button class="inner-button">
+                Join Us
+              </button>
+        </div>
+    </div>    
+    <img src="./image.png" alt="image">
+</html>
