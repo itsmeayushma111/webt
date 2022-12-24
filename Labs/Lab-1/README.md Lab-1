@@ -1,0 +1,42 @@
+Lab-1
+
+OBJECT:Elements of HTML
+
+THEORY:
+
+A) List:
+
+1) Unordered list:An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.Typically, unordered list items are displayed with a bullet, which can be of several forms, like a dot, a circle, or a square. The bullet style is not defined in the HTML description of the page, but in its associated CSS, using the list-style-type property.
+
+2) Ordered list:An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
+type: Sets the numbering type:
+
+a for lowercase letters
+A for uppercase letters
+i for lowercase Roman numerals
+I for uppercase Roman numerals
+1 for numbers (default)
+The specified type is used for the entire list unless a different type attribute is used on an enclosed <li> element.
+
+3) Nested list:The list that are inside a list are known as nested list.
+
+B) Semantic tags:A semantic element clearly describes its meaning to both the browser and the developer.
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+
+C) Text Formatting tags:Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+D) Audio, Video and Image:The <audio> element is used to embed audio files to a web page, and the <video> element is used to embed a video and the <img> tag is used to embed images.
+
+E) iframe:The HTML Inline Frame element (iframe) represents a nested browsing context, embedding another HTML page into the current one.
