@@ -1,0 +1,13 @@
+.wrapper {
+    position: relative;
+    width: 300px;
+    max-width: 20%;
+    margin: auto;
+    background-color: rgb(241, 241, 248);
+    border-radius: 6px;
+    font-size: large;
+    padding: 5px 20px;
+}
+.text {
+    padding: 18px 18px 30px 15px;
+}
