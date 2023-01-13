@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sum of Prime numbers between 1 & 50</title>
+</head>
+<body>
+	<h3>Sum of prime numbers between 1 & 50 is :</h3>
+	<input type="string" id="input" placeholder="Click on Display">
+	<button onclick="display()">Display</button>
+
+	<script type="text/javascript">
+	function display(){
+		let c=0,sum=0;
+			for (let i =  2; i< 50; i++) {
+    			for (let j=2; j <=i/2; j++) {
+    				if (i%j==0) {
+    					c=1;
+    					break;
+    				}
+    			}
+    			if(c==0){
+    					sum=sum+i;
+    				}
+    			c=0;
+    		}
+    		document.getElementById("input").value=sum;
+    }
+	
+	</script>
+</body>

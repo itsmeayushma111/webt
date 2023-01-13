@@ -1,0 +1,20 @@
+Lab 3: Javascript Fundamentals
+WAP to reverse the string provided by the user.
+Write a function to check if the provided number is palindromic or not.
+Write a program to find the sum of prime number between 1 and 50.
+Write a function that reverse the provided array.
+Write a function that sorts the provided array based on the parameter (i.e. asc = ascending, desc = descending order).
+OBJECTIVE : TO BE FAMILIAR WITH JAVASCRIPT FUNDAMENTALS
+THEORY :
+alert()
+Using alert displays a dialog with given message .The dialog gets closed on clicking "OK" button.
+
+alert("HI");
+
+console.log()
+This function allows us to log into the browser console and helps us to debug our code easily.
+
+console.log("Child element is displayed !");
+
+CONCLUSION :
+Hence , we learn't the JavaScript Fundamentals ...

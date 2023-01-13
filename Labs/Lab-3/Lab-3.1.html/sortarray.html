@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sorting Array</title>
+</head>
+<body>
+  <h1>Sort Array:</h1>
+
+<p>Click the button to sort the array in ascending order:</p>
+
+<button onclick="sortArray('asc')">Sort in Ascending order</button>
+
+<p>Click the button to sort the array in descending order:</p>
+
+<button onclick="sortArray('desc')">Sort in Descending order</button>
+
+<script type="text/javascript">
+  function sortArray(order) {
+    // Here is the array that we want to sort
+    var arr = [5, 8, 2, 6, 1, -8, 7, 9, 3];
+
+    // Sort the array in ascending order if the 'asc' parameter is passed
+    // Otherwise, sort the array in descending order
+    if (order === 'asc') {
+      arr.sort(function(a, b) {
+        return a - b;
+      });
+    } else {
+      arr.sort(function(a, b) {
+        return b - a;
+      });
+    }
+
+    // Print the sorted array to the console
+    console.log(arr);
+  }
+</script>
+
+</body>
+</html>

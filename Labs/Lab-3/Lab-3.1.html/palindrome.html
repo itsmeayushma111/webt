@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Palindrome of a string</title>
+    </head>
+    <body>
+        <input type="string" id="input" placeholder="Enter a string">
+        <button id="btn">Output</button>
+        <script type="text/javascript">
+            let x=document.getElementById("btn");
+            x.addEventListener("click", function()
+            {  
+                let rev="";
+                let str = document.getElementById("input").value;
+                for( let i=str.length-1; i>=0; i-- )
+                {
+                    rev+=str[i];
+                }
+                if (rev==str)
+                {
+                    document.getElementById("input").value="Palindrome";
+                }
+                else
+                {
+                    document.getElementById("input").value="Not Palindrome";
+                }
+            })
+
+        </script>
+    </body>
+</html>
